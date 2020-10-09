@@ -1,0 +1,58 @@
+body {
+    background: lightblue;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo-input {
+    padding: 6px;
+    width: 20em;
+    border: none;
+}
+.todo-button {
+    padding: 6px;
+    margin: 6px;
+    width: 3em;
+    background: rgb(107, 158, 175);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.filter-todo {
+    position: absolute;
+    right: 330px;
+    top: 93px;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+}
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo {
+    list-style: none;
+    border: 1px solid rgb(93, 144, 161);
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.complete-btn {
+    background: green;
+    border: none;
+    color: white;
+    margin-right: 5px;
+}
+.trash-btn {
+    background: red;
+    border: none;
+    color: white;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
