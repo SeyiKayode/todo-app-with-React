@@ -46,13 +46,34 @@ body {
     border: none;
     color: white;
     margin-right: 5px;
+    cursor: pointer;
 }
 .trash-btn {
     background: red;
     border: none;
     color: white;
+    cursor: pointer;
 }
 .completed {
     text-decoration: line-through;
     opacity: 0.5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
